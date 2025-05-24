@@ -31,7 +31,7 @@ export class EmployeeService {
   }
 
   createEmployee(employee: Employee) {
-    return this.httpClient.post(`${this.url}/employee`, employee, {
+    return this.httpClient.post(`${this.url}`, employee, {
       responseType: "text"
     });
   }

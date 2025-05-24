@@ -67,7 +67,7 @@ import { MatCardModule } from '@angular/material/card';
       </mat-card-content>
 
       <mat-card-actions>
-        <button mat-raised-button color="primary" [routerLink]="['new']">
+        <button mat-raised-button color="primary" [routerLink]="['add']">
           Add new employee
         </button>
       </mat-card-actions>
